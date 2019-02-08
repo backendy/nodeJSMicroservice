@@ -1,4 +1,4 @@
-# nodeJSMicroservice
+# NodeJS Microservice
 
 Task to build simple stateless microservice in Nodejs with three major functionalities:
 - JWT Authentication
