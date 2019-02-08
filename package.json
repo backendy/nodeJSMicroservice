@@ -1,0 +1,32 @@
+{
+  "name": "node-token-authentication",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint server.js",
+    "test": "node_modules/mocha/bin/mocha ./test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.2.1",
+    "chai-jwt": "^2.0.0",
+    "commander": "^2.19.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "fast-json-patch": "^2.0.7",
+    "fs": "0.0.1-security",
+    "image-downloader": "^3.4.2",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.13.18",
+    "morgan": "^1.9.1",
+    "prettier": "^1.16.4",
+    "resize-img": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.4.2"
+  }
+}
