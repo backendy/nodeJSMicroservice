@@ -13,10 +13,9 @@ Task to build simple stateless microservice in Nodejs with three major functiona
 ### Usage
 
 1. Install dependencies: `npm install`
-2. Change SECRET in `config.js`
-3. Add your own MongoDB database to `config.js`
-4. Start the server: `node server.js`
-5. Create sample user by visiting: `http://localhost:8080/setup`
+2. Add your own MongoDB database to `config.js`
+3. Start the server: `node server.js`
+4. Create sample user by visiting: `http://localhost:8080/setup`
 
 Once everything is set up, we can begin to use our app by creating and verifying tokens.
 
