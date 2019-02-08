@@ -38,7 +38,7 @@ app.get('/setup', (req, res) => {
 
 	// create a sample user
 	var nick = new User({
-		name: 'Nick Cerminara',
+		name: 'Akshay',
 		password: 'password',
 		admin: true,
 	});
